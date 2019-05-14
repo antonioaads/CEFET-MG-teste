@@ -1,0 +1,9 @@
+
+Gabriel;123456;João;Avenida Amazonas, BH, 3000 - MG;31900001111;g@email.com.br;Administrador
+antonio1;senhadoantonio;João;Avenida Amazonas, BH, 3000 - MG;31900001111;joaoemail@email.com.br;Cliente
+fornecedor1;fornece;João;Avenida Amazonas, BH, 3000 - MG;31900001111;joaoemail@email.com.br;Profissional
+Gabriel2;456;tesatf;Avenida Amazonas, BH, 3000 - MG;31900001111;joaoemail@email.com.br;Cliente
+admin;123;João;Avenida Amazonas, BH, 3000 - MG;31900001111;joaoemail@email.com.br;Administrador
+cliente;123;João;Avenida Amazonas, BH, 3000 - MG;31900001111;joaoemail@email.com.br;Cliente
+profissa;123;João;Avenida Amazonas, BH, 3000 - MG;31900001111;joaoemail@email.com.br;Profissional
+antonio;123;Antonio;Avenida Amazonas, BH, 3000 - MG;319000;joaoemail@email.com.br;Administrador

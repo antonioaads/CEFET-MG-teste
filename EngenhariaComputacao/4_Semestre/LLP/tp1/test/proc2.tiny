@@ -1,0 +1,13 @@
+global z;
+
+proc main()
+  local x,y;
+  read(x);
+  read(y);
+  writeVar(x);
+  writeVar(y);
+  z:= x + y;
+  writeVar(z);
+endproc
+
+endp

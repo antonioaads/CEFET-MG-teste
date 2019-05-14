@@ -1,0 +1,23 @@
+module control_unit(run,          //aciona o módulo 1bit
+                    resetn,       //reseta o módulo 1bit
+                    counter,      //entrada da máquina de estados 3bits
+                    counter_clear,//reset da máquina de estados 1bit
+                    ir,           //entrada de instrução 10bits
+                    mux_control,  //controle do multiplexador 4bits
+                    done,         //Saída para mostrar que ta pronto 1bit
+                    r_act,        //Habilite escrita nos registradores R[] 8bits
+                    a_act,        //Habilita escrita no registrador A 1bit
+                    g_act,        //Habilita escrita no registrador G 1bit
+                    addr_act,     //Habilita escrita no registrador ADDR 1bit
+                    dout_act,     //Habilita escrita no registrador DOUT 1bit
+                    w_d,          //Write da memória 1bit
+                    addsub);      //Comando da ULA 3bits
+  
+  input run, resetn;
+  input[2:0]counter;
+  input[9:0]ir;
+  output counter_clear,done,r_act, a_act,g_act,addr_act, dout_act, w_d;
+  output[3:0]mux_control,
+  input []
+  output
+endmodule

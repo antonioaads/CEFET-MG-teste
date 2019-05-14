@@ -1,0 +1,138 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vcounter
+!i10b 1
+!s100 ED=N`:mQ]:e4aH8ZeI;;13
+IanB=4e5ZG0QQ`cfzO6c4B1
+Z1 Vodl8P3Q`_kGJRM@HLCdW31
+Z2 dC:\Users\Antonio\Documents\4_semestre\LAOC II\pratica2
+w1537311727
+Z3 8C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/counter.v
+Z4 FC:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/counter.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1537311734.522000
+!s107 C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/counter.v|
+Z6 !s90 -reportprogress|300|-work|work|C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/counter.v|
+!s101 -O0
+Z7 o-work work -O0
+vmux_16_1_16_bit
+Z8 !s100 cXU61=b]cZki:lAAP=CW02
+Z9 IkZPccDzPC8lSHaY<UDS_@0
+Z10 VhYQdl3h]efcdYDPc`V8KG0
+R2
+Z11 w1537306083
+Z12 8C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/multiplexador_16_16bits.v
+Z13 FC:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/multiplexador_16_16bits.v
+L0 24
+R5
+r1
+31
+Z14 !s108 1537306094.817000
+Z15 !s107 C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/multiplexador_16_16bits.v|
+Z16 !s90 -reportprogress|300|-work|work|C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/multiplexador_16_16bits.v|
+R7
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_16_1_1_bit
+Z17 I3Xe;alcG5JjeJ<0[]j`Um3
+Z18 VT9Nc]_<zjn@K[W8_lPc7P0
+R2
+R11
+R12
+R13
+L0 1
+R5
+r1
+31
+R14
+R15
+R16
+R7
+Z19 !s100 BlAZo=QdRS0aJ1AB>oPdn2
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_8_1_1_bit
+Z20 !s100 L0zfCKYIcbYQdN7:6[3aj2
+Z21 I;[>7:XaJ^FE>Tl2XncffV1
+Z22 VEN=c2d]GzJIcYMQ=X81aD1
+R2
+Z23 w1537310136
+Z24 8C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/ula.v
+Z25 FC:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/ula.v
+L0 44
+R5
+r1
+31
+Z26 !s108 1537310144.762000
+Z27 !s107 C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/ula.v|
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/ula.v|
+R7
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_ula
+Z29 !s100 4zBcd[@NKAmjlZ9E;G:z23
+Z30 I7HBR9<7ENQQ>J:f^m`7nM0
+Z31 Vhbf]lG7@Tnh=nGFZb6GO60
+R2
+R23
+R24
+R25
+L0 19
+R5
+r1
+31
+R26
+R27
+R28
+R7
+!i10b 1
+!s85 0
+!s101 -O0
+vregistrador_16bits
+Z32 !s100 K?]^Gd6X=`h9B`^5kS21>2
+Z33 IbGz<2agkoo^7hjI9nhkW23
+Z34 VZ9U3^>?7Z0zlL?B_zBAaA2
+R2
+Z35 w1535736406
+Z36 8C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/registradores.v
+Z37 FC:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/registradores.v
+L0 1
+R5
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/registradores.v|
+R7
+Z39 !s108 1537304379.121000
+Z40 !s107 C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica2/registradores.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vula
+Z41 I1Ged<zTAP[Y<0KJ>V1G=I1
+Z42 VloVMe95PTkHIfzVnNcHEU1
+R2
+R23
+R24
+R25
+L0 1
+R5
+r1
+31
+R26
+R27
+R28
+R7
+Z43 !s100 dXNU^oUAgV^`N=QW=Dg6g3
+!i10b 1
+!s85 0
+!s101 -O0

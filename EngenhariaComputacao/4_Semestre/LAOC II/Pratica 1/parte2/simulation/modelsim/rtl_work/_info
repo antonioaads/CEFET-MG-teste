@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Antonio\Documents\4_semestre\LAOC II\pratica1\parte2\simulation\modelsim
+vram_2_port
+!i10b 1
+!s100 g[bI`N5<4:X=]>KdEhDN10
+IN_Xa[`YU1n^DhPYKLWP^Z0
+VJI5GEU=?S:6h07OXn>b?X3
+Z1 dC:\Users\Antonio\Documents\4_semestre\LAOC II\pratica1\parte2\simulation\modelsim
+w1533781046
+8C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v
+FC:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1534524422.572000
+!s107 C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2|C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2} -O0
+vtop_parte2
+IE9=dkAjgn41i]8]`ZAS5F0
+V^:2gih>GBI2WL1XgUNUGm1
+R1
+Z5 w1533780870
+Z6 8C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/top_parte2.v
+Z7 FC:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/top_parte2.v
+L0 11
+R2
+r1
+31
+Z8 !s108 1534524422.290000
+Z9 !s107 C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/top_parte2.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2|C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/top_parte2.v|
+R3
+R4
+!i10b 1
+!s100 ;6@lWz7BIS[mafkA44DM]3
+!s85 0
+!s101 -O0
+vtradutor_4_7_seguimentos
+I<ciXe9LZJ0Em[8];E;F:33
+V4bK_cFjAA:H?>mIoHmCVI0
+R1
+R5
+R6
+R7
+L0 44
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 ^?Gd0?7YGAO>7dd`NRG2O1
+!s85 0
+!s101 -O0

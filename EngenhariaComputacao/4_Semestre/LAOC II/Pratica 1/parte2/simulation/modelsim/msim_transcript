@@ -1,0 +1,99 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do parte2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Antonio/Documents/4_semestre/LAOC\ II/pratica1/parte2 {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/top_parte2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_parte2
+# -- Compiling module tradutor_4_7_seguimentos
+# 
+# Top level modules:
+# 	top_parte2
+# vlog -vlog01compat -work work +incdir+C:/Users/Antonio/Documents/4_semestre/LAOC\ II/pratica1/parte2 {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram_2_port
+# 
+# Top level modules:
+# 	ram_2_port
+# 
+vsim +altera -do parte2_run_msim_rtl_verilog.do -l msim_transcript -gui work.ram_2_port
+# vsim +altera -do parte2_run_msim_rtl_verilog.do -l msim_transcript -gui work.ram_2_port 
+# Loading work.ram_2_port
+# ** Error: (vsim-3033) C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v(88): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ram_2_port
+#         Searched libraries:
+#             C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/simulation/modelsim/rtl_work
+# Error loading design
+vsim +altera -Lf altera_mf_ver -do parte2_run_msim_rtl_verilog.do -l msim_transcript -gui work.ram_2_port
+# vsim +altera -Lf altera_mf_ver -do parte2_run_msim_rtl_verilog.do -l msim_transcript -gui work.ram_2_port 
+# Loading work.ram_2_port
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# do parte2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Antonio/Documents/4_semestre/LAOC\ II/pratica1/parte2 {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/top_parte2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_parte2
+# -- Compiling module tradutor_4_7_seguimentos
+# 
+# Top level modules:
+# 	top_parte2
+# vlog -vlog01compat -work work +incdir+C:/Users/Antonio/Documents/4_semestre/LAOC\ II/pratica1/parte2 {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/ram_2_port.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram_2_port
+# 
+# Top level modules:
+# 	ram_2_port
+# 
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/ram_2_port/clock
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/ram_2_port/clock
+wave create -driver freeze -pattern constant -value 0 -range 7 0 -starttime 0ps -endtime 1000ps sim:/ram_2_port/data
+wave create -driver freeze -pattern constant -value 0 -range 4 0 -starttime 0ps -endtime 1000ps sim:/ram_2_port/wraddress
+wave create -driver freeze -pattern counter -startvalue 00000 -endvalue 00011 -type Range -direction Up -period 100ps -step 1 -repeat forever -range 4 0 -starttime 0ps -endtime 1000ps sim:/ram_2_port/rdaddress
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/ram_2_port/wren
+add wave -position 2 -format Logic -height 17 -editable 2 Edit:/ram_2_port/wren
+add wave -position 1 -format Logic -height 17 -editable 2 Edit:/ram_2_port/wren
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: ram_2_port.altsyncram_component
+add wave -position end  sim:/ram_2_port/q
+run -all
+# 
+# Internal Error: In tclprim_ApplyStimulus for /ram_2_port/clock "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /ram_2_port/wren ""
+# Internal Error: In tclprim_ApplyStimulus for /ram_2_port/data ""
+# Internal Error: In tclprim_ApplyStimulus for /ram_2_port/wraddress ""
+# Internal Error: In tclprim_ApplyStimulus for /ram_2_port/rdaddress ""
+restart
+# Loading work.ram_2_port
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: ram_2_port.altsyncram_component
+wave modify -driver freeze -pattern counter -startvalue 00000 -endvalue 00011 -type Range -direction Up -period 100ps -step 1 -repeat forever -range 4 0 -starttime 300ps -endtime 1000ps Edit:/ram_2_port/wraddress
+wave modify -driver freeze -pattern counter -startvalue 11111111 -endvalue 0 -type Range -direction Down -period 50ps -step 1 -repeat forever -range 7 0 -starttime 300ps -endtime 1000ps Edit:/ram_2_port/data
+wave modify -driver freeze -pattern counter -startvalue 00000000 -endvalue 11111111 -type Range -direction Down -period 50ps -step 1 -repeat forever -range 7 0 -starttime 300ps -endtime 1000ps Edit:/ram_2_port/data
+# In Range Down Counter: End value cannot be greater than Start value
+wave modify -driver freeze -pattern counter -startvalue 100 -endvalue 11111111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 7 0 -starttime 300ps -endtime 1000ps Edit:/ram_2_port/data
+wave modify -driver freeze -pattern counter -startvalue 00000100 -endvalue 11111111 -type Range -direction Up -period 100ps -step 1 -repeat forever -range 7 0 -starttime 300ps -endtime 1000ps Edit:/ram_2_port/data
+wave modify -driver freeze -pattern constant -value St1 -starttime 300ps -endtime 1000ps Edit:/ram_2_port/wren
+restart
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: ram_2_port.altsyncram_component
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/simulation/modelsim/wave.do}
+wave editwrite -file {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte2/simulation/modelsim/wave.do} -append

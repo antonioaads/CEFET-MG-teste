@@ -1,0 +1,1002 @@
+"C:\Program Files\Java\jdk1.8.0_181\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.1\lib\idea_rt.jar=54125:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Users\Rodrigo\IdeaProjects\Tp1_Aeds2\out\production\Tp1_Aeds2" Main
+Inseriu chave 0: Importancia      - Linha 1 / Coluna 1
+Inseriu chave 1: da               - Linha 1 / Coluna 2
+Inseriu chave 2: Computacao       - Linha 1 / Coluna 3
+Inseriu chave 3: e                - Linha 1 / Coluna 4
+Inseriu chave 4: a                - Linha 1 / Coluna 5
+Inseriu chave 5: formacao         - Linha 1 / Coluna 6
+Inseriu chave 6: de               - Linha 1 / Coluna 7
+Inseriu chave 7: mao-de-obra      - Linha 1 / Coluna 8
+Inseriu chave 8: especializada    - Linha 1 / Coluna 9
+Inseriu chave 9:                  - Linha 2 / Coluna 0
+Inseriu chave 10: No               - Linha 3 / Coluna 1
+Inseriu chave 11: dia              - Linha 3 / Coluna 2
+Inseriu chave 12: 16/12/2008       - Linha 3 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 13: a                - Linha 3 / Coluna 4
+Inseriu chave 14: ACM              - Linha 3 / Coluna 5
+Inseriu chave 15: (Association     - Linha 3 / Coluna 6
+Inseriu chave 16: for              - Linha 3 / Coluna 7
+Inseriu chave 17: Computing        - Linha 3 / Coluna 8
+Inseriu chave 18: Machinery)       - Linha 3 / Coluna 9
+Inseriu chave 19: solicitou        - Linha 3 / Coluna 10
+Inseriu chave 20: ao               - Linha 3 / Coluna 11
+Inseriu chave 21: presidente       - Linha 3 / Coluna 12
+Inseriu chave 22: eleito           - Linha 3 / Coluna 13
+Inseriu chave 23: dos              - Linha 4 / Coluna 1
+Inseriu chave 24: Estados          - Linha 4 / Coluna 2
+Inseriu chave 25: Unidos           - Linha 4 / Coluna 3
+Inseriu chave 26: que              - Linha 4 / Coluna 4
+Inseriu chave 27: colocasse        - Linha 4 / Coluna 5
+Inseriu chave 28: como             - Linha 4 / Coluna 6
+Inseriu chave 29: prioridade       - Linha 4 / Coluna 7
+Inseriu chave 30: nacional         - Linha 4 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 31: a                - Linha 4 / Coluna 9
+Inseriu chave 32: educacao         - Linha 4 / Coluna 10
+Inseriu chave 33: cientifica       - Linha 4 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 34: e                - Linha 4 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 35: a                - Linha 4 / Coluna 13
+Inseriu chave 36: matematica       - Linha 4 / Coluna 14
+Inseriu chave 37: Alem             - Linha 5 / Coluna 1
+Inseriu chave 38: disso            - Linha 5 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 39: solicitou        - Linha 5 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 40: que              - Linha 5 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 41: a                - Linha 5 / Coluna 5
+Inseriu chave 42: ciencia          - Linha 5 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 43: da               - Linha 5 / Coluna 7
+Inseriu chave 44: computacao       - Linha 5 / Coluna 8
+Inseriu chave 45: fosse            - Linha 5 / Coluna 9
+Inseriu chave 46: uma              - Linha 5 / Coluna 10
+Inseriu chave 47: parte            - Linha 5 / Coluna 11
+Inseriu chave 48: fundamental      - Linha 5 / Coluna 12
+Inseriu chave 49: do               - Linha 5 / Coluna 13
+Inseriu chave 50: sistema          - Linha 5 / Coluna 14
+Inseriu chave 51: educacional      - Linha 6 / Coluna 1
+Inseriu chave 52: norte-americano  - Linha 6 / Coluna 2
+Inseriu chave 53: Nao              - Linha 6 / Coluna 3
+Inseriu chave 54: seria            - Linha 6 / Coluna 4
+Inseriu chave 55: o                - Linha 6 / Coluna 5
+Inseriu chave 56: caso             - Linha 6 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 57: de               - Linha 6 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 58: o                - Linha 6 / Coluna 8
+Inseriu chave 59: governo          - Linha 6 / Coluna 9
+Inseriu chave 60: brasileiro       - Linha 6 / Coluna 10
+Inseriu chave 61: fazer            - Linha 6 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 62: o                - Linha 6 / Coluna 12
+Inseriu chave 63: mesmo            - Linha 6 / Coluna 13
+Erro: chave ja esta na arvore
+Inseriu chave 64:                  - Linha 7 / Coluna 0
+Inseriu chave 65: A                - Linha 8 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 66: computacao       - Linha 8 / Coluna 2
+Inseriu chave 67: nao              - Linha 8 / Coluna 3
+Inseriu chave 68: beneficia        - Linha 8 / Coluna 4
+Inseriu chave 69: somente          - Linha 8 / Coluna 5
+Inseriu chave 70: os               - Linha 8 / Coluna 6
+Inseriu chave 71: profissionais    - Linha 8 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 72: que              - Linha 8 / Coluna 8
+Inseriu chave 73: irao             - Linha 8 / Coluna 9
+Inseriu chave 74: atuar            - Linha 8 / Coluna 10
+Inseriu chave 75: na               - Linha 8 / Coluna 11
+Inseriu chave 76: criacao          - Linha 8 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 77: de               - Linha 8 / Coluna 13
+Inseriu chave 78: sistemas         - Linha 9 / Coluna 1
+Inseriu chave 79: computacionais   - Linha 9 / Coluna 2
+Inseriu chave 80: ou               - Linha 9 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 81: na               - Linha 9 / Coluna 4
+Inseriu chave 82: infra-estrutura  - Linha 9 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 83: de               - Linha 9 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 84: computacao       - Linha 9 / Coluna 7
+Inseriu chave 85: Todos            - Linha 9 / Coluna 8
+Inseriu chave 86: ganham           - Linha 9 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 87: ao               - Linha 9 / Coluna 10
+Inseriu chave 88: lidar            - Linha 9 / Coluna 11
+Inseriu chave 89: com              - Linha 10 / Coluna 1
+Inseriu chave 90: computadores     - Linha 10 / Coluna 2
+Inseriu chave 91: desde            - Linha 10 / Coluna 3
+Inseriu chave 92: cedo             - Linha 10 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 93: Todos            - Linha 10 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 94: os               - Linha 10 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 95: profissionais    - Linha 10 / Coluna 7
+Inseriu chave 96: em               - Linha 10 / Coluna 8
+Inseriu chave 97: maior            - Linha 10 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 98: ou               - Linha 10 / Coluna 10
+Inseriu chave 99: menor            - Linha 10 / Coluna 11
+Inseriu chave 100: grau             - Linha 10 / Coluna 12
+Inseriu chave 101: utilizam         - Linha 10 / Coluna 13
+Erro: chave ja esta na arvore
+Inseriu chave 102: computadores     - Linha 11 / Coluna 1
+Inseriu chave 103: para             - Linha 11 / Coluna 2
+Inseriu chave 104: cumprir          - Linha 11 / Coluna 3
+Inseriu chave 105: suas             - Linha 11 / Coluna 4
+Inseriu chave 106: funcoes          - Linha 11 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 107:                  - Linha 12 / Coluna 0
+Inseriu chave 108: Por              - Linha 13 / Coluna 1
+Inseriu chave 109: outro            - Linha 13 / Coluna 2
+Inseriu chave 110: lado             - Linha 13 / Coluna 3
+Inseriu chave 111: no               - Linha 13 / Coluna 4
+Inseriu chave 112: mundo            - Linha 13 / Coluna 5
+Inseriu chave 113: todo             - Linha 13 / Coluna 6
+Inseriu chave 114: ha               - Linha 13 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 115: uma              - Linha 13 / Coluna 8
+Inseriu chave 116: diminuicao       - Linha 13 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 117: no               - Linha 13 / Coluna 10
+Inseriu chave 118: numero           - Linha 13 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 119: de               - Linha 13 / Coluna 12
+Inseriu chave 120: estudantes       - Linha 13 / Coluna 13
+Inseriu chave 121: interessados     - Linha 13 / Coluna 14
+Erro: chave ja esta na arvore
+Inseriu chave 122: em               - Linha 14 / Coluna 1
+Inseriu chave 123: ingressar        - Linha 14 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 124: em               - Linha 14 / Coluna 3
+Inseriu chave 125: cursos           - Linha 14 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 126: de               - Linha 14 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 127: computacao       - Linha 14 / Coluna 6
+Inseriu chave 128: Isso             - Linha 14 / Coluna 7
+Inseriu chave 129: faz              - Linha 14 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 130: com              - Linha 14 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 131: que              - Linha 14 / Coluna 10
+Inseriu chave 132: haja             - Linha 14 / Coluna 11
+Inseriu chave 133: um               - Linha 14 / Coluna 12
+Inseriu chave 134: grande           - Linha 14 / Coluna 13
+Inseriu chave 135: volume           - Linha 14 / Coluna 14
+Erro: chave ja esta na arvore
+Inseriu chave 136: de               - Linha 14 / Coluna 15
+Inseriu chave 137: vagas            - Linha 14 / Coluna 16
+Erro: chave ja esta na arvore
+Inseriu chave 138: em               - Linha 15 / Coluna 1
+Inseriu chave 139: aberto           - Linha 15 / Coluna 2
+Inseriu chave 140: atualmente       - Linha 15 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 141: para             - Linha 15 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 142: profissionais    - Linha 15 / Coluna 5
+Inseriu chave 143: qualificados     - Linha 15 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 144: e                - Linha 15 / Coluna 7
+Inseriu chave 145: devido           - Linha 15 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 146: ao               - Linha 15 / Coluna 9
+Inseriu chave 147: crescimento      - Linha 15 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 148: do               - Linha 15 / Coluna 11
+Inseriu chave 149: setor            - Linha 15 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 150: de               - Linha 16 / Coluna 1
+Inseriu chave 151: informatica      - Linha 16 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 152: o                - Linha 16 / Coluna 3
+Inseriu chave 153: quadro           - Linha 16 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 154: que              - Linha 16 / Coluna 5
+Inseriu chave 155: se               - Linha 16 / Coluna 6
+Inseriu chave 156: desenha          - Linha 16 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 157: para             - Linha 16 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 158: o                - Linha 16 / Coluna 9
+Inseriu chave 159: futuro           - Linha 16 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 160: e                - Linha 16 / Coluna 11
+Inseriu chave 161: promissor        - Linha 16 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 162: para             - Linha 16 / Coluna 13
+Inseriu chave 163: quem             - Linha 16 / Coluna 14
+Erro: chave ja esta na arvore
+Inseriu chave 164: se               - Linha 16 / Coluna 15
+Inseriu chave 165: especializar     - Linha 16 / Coluna 16
+Erro: chave ja esta na arvore
+Inseriu chave 166: na               - Linha 17 / Coluna 1
+Inseriu chave 167: area             - Linha 17 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 168: de               - Linha 17 / Coluna 3
+Inseriu chave 169: TI:              - Linha 17 / Coluna 4
+Inseriu chave 170: muitas           - Linha 17 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 171: vagas            - Linha 17 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 172: e                - Linha 17 / Coluna 7
+Inseriu chave 173: poucos           - Linha 17 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 174: profissionais    - Linha 17 / Coluna 9
+Inseriu chave 175: capacitados      - Linha 17 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 176:                  - Linha 18 / Coluna 0
+Inseriu chave 177: Importar         - Linha 19 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 178: profissionais    - Linha 19 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 179: de               - Linha 19 / Coluna 3
+Inseriu chave 180: outras           - Linha 19 / Coluna 4
+Inseriu chave 181: areas            - Linha 19 / Coluna 5
+Inseriu chave 182: situacao         - Linha 19 / Coluna 6
+Inseriu chave 183: corriqueira      - Linha 19 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 184: em               - Linha 19 / Coluna 8
+Inseriu chave 185: todas            - Linha 19 / Coluna 9
+Inseriu chave 186: as               - Linha 19 / Coluna 10
+Inseriu chave 187: empresas         - Linha 19 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 188: do               - Linha 20 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 189: setor            - Linha 20 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 190: de               - Linha 20 / Coluna 3
+Inseriu chave 191: tecnologia       - Linha 20 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 192: nao              - Linha 20 / Coluna 5
+Inseriu chave 193: resolve          - Linha 20 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 194: o                - Linha 20 / Coluna 7
+Inseriu chave 195: problema         - Linha 20 / Coluna 8
+Inseriu chave 196: Profissionais    - Linha 20 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 197: de               - Linha 20 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 198: outras           - Linha 20 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 199: areas            - Linha 20 / Coluna 12
+Inseriu chave 200: podem            - Linha 21 / Coluna 1
+Inseriu chave 201: entrar           - Linha 21 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 202: no               - Linha 21 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 203: setor            - Linha 21 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 204: de               - Linha 21 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 205: computacao       - Linha 21 / Coluna 6
+Inseriu chave 206: sem              - Linha 21 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 207: os               - Linha 21 / Coluna 8
+Inseriu chave 208: fundamentos      - Linha 21 / Coluna 9
+Inseriu chave 209: necessarios      - Linha 21 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 210: para             - Linha 21 / Coluna 11
+Inseriu chave 211: gerar            - Linha 21 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 212: o                - Linha 22 / Coluna 1
+Inseriu chave 213: trabalho         - Linha 22 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 214: com              - Linha 22 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 215: maior            - Linha 22 / Coluna 4
+Inseriu chave 216: produtividade    - Linha 22 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 217: e                - Linha 22 / Coluna 6
+Inseriu chave 218: necessario       - Linha 22 / Coluna 7
+Inseriu chave 219: investir         - Linha 22 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 220: na               - Linha 22 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 221: formacao         - Linha 22 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 222: de               - Linha 22 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 223: mao-de-obra      - Linha 22 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 224: especializada    - Linha 23 / Coluna 1
+Inseriu chave 225: ter              - Linha 23 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 226: cursos           - Linha 23 / Coluna 3
+Inseriu chave 227: mais             - Linha 23 / Coluna 4
+Inseriu chave 228: atrativos        - Linha 23 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 229: para             - Linha 23 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 230: a                - Linha 23 / Coluna 7
+Inseriu chave 231: comunidade       - Linha 23 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 232: e                - Linha 23 / Coluna 9
+Inseriu chave 233: focar            - Linha 23 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 234: mais             - Linha 23 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 235: no               - Linha 23 / Coluna 12
+Inseriu chave 236: mercado          - Linha 23 / Coluna 13
+Erro: chave ja esta na arvore
+Inseriu chave 237: de               - Linha 24 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 238: trabalho         - Linha 24 / Coluna 2
+Inseriu chave 239: pois             - Linha 24 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 240: e                - Linha 24 / Coluna 4
+Inseriu chave 241: la               - Linha 24 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 242: que              - Linha 24 / Coluna 6
+Inseriu chave 243: estao            - Linha 24 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 244: os               - Linha 24 / Coluna 8
+Inseriu chave 245: empregos         - Linha 24 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 246:                  - Linha 25 / Coluna 0
+Inseriu chave 247: Uma              - Linha 26 / Coluna 1
+Inseriu chave 248: politica         - Linha 26 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 249: de               - Linha 26 / Coluna 3
+Inseriu chave 250: desenvolvimento  - Linha 26 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 251: que              - Linha 26 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 252: se               - Linha 26 / Coluna 6
+Inseriu chave 253: diz              - Linha 26 / Coluna 7
+Inseriu chave 254: sustentavel      - Linha 26 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 255: nao              - Linha 26 / Coluna 9
+Inseriu chave 256: pode             - Linha 26 / Coluna 10
+Inseriu chave 257: abrir            - Linha 26 / Coluna 11
+Inseriu chave 258: mao              - Linha 26 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 259: da               - Linha 27 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 260: educacao         - Linha 27 / Coluna 2
+Inseriu chave 261: E                - Linha 27 / Coluna 3
+Inseriu chave 262: falar            - Linha 27 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 263: de               - Linha 27 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 264: desenvolvimento  - Linha 27 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 265: sem              - Linha 27 / Coluna 7
+Inseriu chave 266: incluir          - Linha 27 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 267: a                - Linha 27 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 268: informatica      - Linha 27 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 269: e                - Linha 27 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 270: no               - Linha 27 / Coluna 12
+Inseriu chave 271: minimo           - Linha 27 / Coluna 13
+Inseriu chave 272: ingenuidade      - Linha 28 / Coluna 1
+Inseriu chave 273: O                - Linha 28 / Coluna 2
+Inseriu chave 274: importante       - Linha 28 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 275: e                - Linha 28 / Coluna 4
+Inseriu chave 276: agir             - Linha 28 / Coluna 5
+Inseriu chave 277: rapido           - Linha 28 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 278: pois             - Linha 28 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 279: em               - Linha 28 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 280: educacao         - Linha 28 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 281: os               - Linha 28 / Coluna 10
+Inseriu chave 282: resultados       - Linha 28 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 283: nao              - Linha 28 / Coluna 12
+Inseriu chave 284: aparecem         - Linha 28 / Coluna 13
+Inseriu chave 285: rapidamente      - Linha 29 / Coluna 1
+Inseriu chave 286: Serao            - Linha 29 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 287: necessarios      - Linha 29 / Coluna 3
+Inseriu chave 288: alguns           - Linha 29 / Coluna 4
+Inseriu chave 289: anos             - Linha 29 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 290: para             - Linha 29 / Coluna 6
+Inseriu chave 291: formar           - Linha 29 / Coluna 7
+Inseriu chave 292: bons             - Linha 29 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 293: profissionais    - Linha 29 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 294: e                - Linha 30 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 295: necessario       - Linha 30 / Coluna 2
+Inseriu chave 296: convencer        - Linha 30 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 297: os               - Linha 30 / Coluna 4
+Inseriu chave 298: jovens           - Linha 30 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 299: que              - Linha 30 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 300: a                - Linha 30 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 301: area             - Linha 30 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 302: de               - Linha 30 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 303: tecnologia       - Linha 30 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 304: e                - Linha 30 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 305: uma              - Linha 30 / Coluna 12
+Inseriu chave 306: das              - Linha 30 / Coluna 13
+Erro: chave ja esta na arvore
+Inseriu chave 307: que              - Linha 30 / Coluna 14
+Erro: chave ja esta na arvore
+Inseriu chave 308: mais             - Linha 30 / Coluna 15
+Inseriu chave 309: garantirao       - Linha 31 / Coluna 1
+Inseriu chave 310: emprego          - Linha 31 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 311: mesmo            - Linha 31 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 312: com              - Linha 31 / Coluna 4
+Inseriu chave 313: toda             - Linha 31 / Coluna 5
+Inseriu chave 314: crise            - Linha 31 / Coluna 6
+Inseriu chave 315: global           - Linha 31 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 316:                  - Linha 32 / Coluna 0
+Inseriu chave 317: Tanto            - Linha 33 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 318: no               - Linha 33 / Coluna 2
+Inseriu chave 319: Brasil           - Linha 33 / Coluna 3
+Inseriu chave 320: quanto           - Linha 33 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 321: no               - Linha 33 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 322: mundo            - Linha 33 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 323: a                - Linha 33 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 324: tecnologia       - Linha 33 / Coluna 8
+Inseriu chave 325: representa       - Linha 33 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 326: uma              - Linha 33 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 327: grande           - Linha 33 / Coluna 11
+Inseriu chave 328: oportunidade     - Linha 34 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 329: para             - Linha 34 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 330: gerar            - Linha 34 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 331: empregos         - Linha 34 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 332: que              - Linha 34 / Coluna 5
+Inseriu chave 333: agregam          - Linha 34 / Coluna 6
+Inseriu chave 334: valor            - Linha 34 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 335: ao               - Linha 34 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 336: que              - Linha 34 / Coluna 9
+Erro: chave ja esta na arvore
+Inseriu chave 337: se               - Linha 34 / Coluna 10
+Inseriu chave 338: produz           - Linha 34 / Coluna 11
+Erro: chave ja esta na arvore
+Inseriu chave 339: O                - Linha 35 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 340: Brasil           - Linha 35 / Coluna 2
+Erro: chave ja esta na arvore
+Inseriu chave 341: pode             - Linha 35 / Coluna 3
+Inseriu chave 342: optar            - Linha 35 / Coluna 4
+Inseriu chave 343: por              - Linha 35 / Coluna 5
+Erro: chave ja esta na arvore
+Inseriu chave 344: investir         - Linha 35 / Coluna 6
+Inseriu chave 345: nesta            - Linha 35 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 346: area             - Linha 35 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 347: como             - Linha 35 / Coluna 9
+Inseriu chave 348: fizeram          - Linha 35 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 349: a                - Linha 35 / Coluna 11
+Inseriu chave 350: China            - Linha 35 / Coluna 12
+Erro: chave ja esta na arvore
+Inseriu chave 351: e                - Linha 35 / Coluna 13
+Erro: chave ja esta na arvore
+Inseriu chave 352: a                - Linha 35 / Coluna 14
+Inseriu chave 353: india            - Linha 36 / Coluna 1
+Erro: chave ja esta na arvore
+Inseriu chave 354: ou               - Linha 36 / Coluna 2
+Inseriu chave 355: ver              - Linha 36 / Coluna 3
+Erro: chave ja esta na arvore
+Inseriu chave 356: mais             - Linha 36 / Coluna 4
+Erro: chave ja esta na arvore
+Inseriu chave 357: uma              - Linha 36 / Coluna 5
+Inseriu chave 358: vez              - Linha 36 / Coluna 6
+Erro: chave ja esta na arvore
+Inseriu chave 359: uma              - Linha 36 / Coluna 7
+Erro: chave ja esta na arvore
+Inseriu chave 360: grande           - Linha 36 / Coluna 8
+Erro: chave ja esta na arvore
+Inseriu chave 361: oportunidade     - Linha 36 / Coluna 9
+Inseriu chave 362: passar           - Linha 36 / Coluna 10
+Erro: chave ja esta na arvore
+Inseriu chave 363: sem              - Linha 36 / Coluna 11
+Inseriu chave 364: ser              - Linha 36 / Coluna 12
+Inseriu chave 365: aproveitada      - Linha 36 / Coluna 13
+
+Pai: 6 ESQ Ext:                 
+Pai: 5 ESQ Int: 6
+Pai: 6 DIR Ext: (Association    
+Pai: 3 ESQ Int: 5
+Pai: 5 DIR Ext: 16/12/2008      
+Pai: null RAIZ Int: 3
+Pai: 11 ESQ Ext: A               
+Pai: 8 ESQ Int: 11
+Pai: 12 ESQ Ext: ACM             
+Pai: 11 DIR Int: 12
+Pai: 12 DIR Ext: Alem            
+Pai: 7 ESQ Int: 8
+Pai: 15 ESQ Ext: China           
+Pai: 13 ESQ Int: 15
+Pai: 54 ESQ Ext: Computacao      
+Pai: 15 DIR Int: 54
+Pai: 54 DIR Ext: Computing       
+Pai: 8 DIR Int: 13
+Pai: 13 DIR Ext: Brasil          
+Pai: 6 ESQ Int: 7
+Pai: 11 ESQ Ext: E               
+Pai: 7 DIR Int: 11
+Pai: 11 DIR Ext: Estados         
+Pai: 5 ESQ Int: 6
+Pai: 61 ESQ Ext: Importancia     
+Pai: 13 ESQ Int: 61
+Pai: 61 DIR Ext: Importar        
+Pai: 7 ESQ Int: 13
+Pai: 13 DIR Ext: Isso            
+Pai: 6 DIR Int: 7
+Pai: 8 ESQ Ext: Machinery)      
+Pai: 7 DIR Int: 8
+Pai: 11 ESQ Ext: O               
+Pai: 8 DIR Int: 11
+Pai: 14 ESQ Ext: Nao             
+Pai: 11 DIR Int: 14
+Pai: 14 DIR Ext: No              
+Pai: 4 ESQ Int: 5
+Pai: 13 ESQ Ext: Por             
+Pai: 8 ESQ Int: 13
+Pai: 13 DIR Ext: Profissionais   
+Pai: 7 ESQ Int: 8
+Pai: 8 DIR Ext: Serao           
+Pai: 5 DIR Int: 7
+Pai: 12 ESQ Ext: TI:             
+Pai: 7 DIR Int: 12
+Pai: 14 ESQ Ext: Tanto           
+Pai: 12 DIR Int: 14
+Pai: 16 ESQ Ext: Uma             
+Pai: 14 DIR Int: 16
+Pai: 22 ESQ Ext: Todos           
+Pai: 16 DIR Int: 22
+Pai: 22 DIR Ext: Unidos          
+Pai: 3 DIR Int: 4
+Pai: 11 ESQ Ext: a               
+Pai: 8 ESQ Int: 11
+Pai: 21 ESQ Ext: aberto          
+Pai: 15 ESQ Int: 21
+Pai: 21 DIR Ext: abrir           
+Pai: 14 ESQ Int: 15
+Pai: 21 ESQ Ext: agir            
+Pai: 15 DIR Int: 21
+Pai: 21 DIR Ext: agregam         
+Pai: 13 ESQ Int: 14
+Pai: 16 ESQ Ext: alguns          
+Pai: 14 DIR Int: 16
+Pai: 19 ESQ Ext: ao              
+Pai: 16 DIR Int: 19
+Pai: 19 DIR Ext: anos            
+Pai: 11 DIR Int: 13
+Pai: 21 ESQ Ext: aparecem        
+Pai: 16 ESQ Int: 21
+Pai: 21 DIR Ext: aproveitada     
+Pai: 15 ESQ Int: 16
+Pai: 19 ESQ Ext: as              
+Pai: 16 DIR Int: 19
+Pai: 35 ESQ Ext: area            
+Pai: 19 DIR Int: 35
+Pai: 35 DIR Ext: areas           
+Pai: 13 DIR Int: 15
+Pai: 23 ESQ Ext: atrativos       
+Pai: 15 DIR Int: 23
+Pai: 37 ESQ Ext: atualmente      
+Pai: 23 DIR Int: 37
+Pai: 37 DIR Ext: atuar           
+Pai: 7 ESQ Int: 8
+Pai: 24 ESQ Ext: capacitados     
+Pai: 15 ESQ Int: 24
+Pai: 24 DIR Ext: caso            
+Pai: 14 ESQ Int: 15
+Pai: 22 ESQ Ext: cedo            
+Pai: 15 DIR Int: 22
+Pai: 22 DIR Ext: beneficia       
+Pai: 13 ESQ Int: 14
+Pai: 37 ESQ Ext: ciencia         
+Pai: 15 ESQ Int: 37
+Pai: 37 DIR Ext: cientifica      
+Pai: 14 DIR Int: 15
+Pai: 27 ESQ Ext: com             
+Pai: 24 ESQ Int: 27
+Pai: 35 ESQ Ext: como            
+Pai: 29 ESQ Int: 35
+Pai: 35 DIR Ext: colocasse       
+Pai: 27 DIR Int: 29
+Pai: 70 ESQ Ext: computacao      
+Pai: 63 ESQ Int: 70
+Pai: 70 DIR Ext: computacionais  
+Pai: 31 ESQ Int: 63
+Pai: 63 DIR Ext: computadores    
+Pai: 29 DIR Int: 31
+Pai: 31 DIR Ext: comunidade      
+Pai: 21 ESQ Int: 24
+Pai: 31 ESQ Ext: bons            
+Pai: 24 DIR Int: 31
+Pai: 31 DIR Ext: convencer       
+Pai: 15 DIR Int: 21
+Pai: 21 DIR Ext: corriqueira     
+Pai: 8 DIR Int: 13
+Pai: 23 ESQ Ext: brasileiro      
+Pai: 22 ESQ Int: 23
+Pai: 23 DIR Ext: crescimento     
+Pai: 15 ESQ Int: 22
+Pai: 29 ESQ Ext: criacao         
+Pai: 22 DIR Int: 29
+Pai: 29 DIR Ext: crise           
+Pai: 13 DIR Int: 15
+Pai: 21 ESQ Ext: cumprir         
+Pai: 15 DIR Int: 21
+Pai: 21 DIR Ext: cursos          
+Pai: 6 ESQ Int: 7
+Pai: 11 ESQ Ext: e               
+Pai: 8 ESQ Int: 11
+Pai: 19 ESQ Ext: da              
+Pai: 15 ESQ Int: 19
+Pai: 19 DIR Ext: das             
+Pai: 14 ESQ Int: 15
+Pai: 19 ESQ Ext: de              
+Pai: 15 DIR Int: 19
+Pai: 38 ESQ Ext: desde           
+Pai: 23 ESQ Int: 38
+Pai: 45 ESQ Ext: desenha         
+Pai: 38 DIR Int: 45
+Pai: 45 DIR Ext: desenvolvimento 
+Pai: 19 DIR Int: 23
+Pai: 54 ESQ Ext: educacao        
+Pai: 24 ESQ Int: 54
+Pai: 54 DIR Ext: educacional     
+Pai: 23 DIR Int: 24
+Pai: 24 DIR Ext: devido          
+Pai: 13 ESQ Int: 14
+Pai: 22 ESQ Ext: dia             
+Pai: 21 ESQ Int: 22
+Pai: 22 DIR Ext: diminuicao      
+Pai: 15 ESQ Int: 21
+Pai: 22 ESQ Ext: disso           
+Pai: 21 DIR Int: 22
+Pai: 22 DIR Ext: diz             
+Pai: 14 DIR Int: 15
+Pai: 19 ESQ Ext: em              
+Pai: 16 ESQ Int: 19
+Pai: 21 ESQ Ext: eleito          
+Pai: 19 DIR Int: 21
+Pai: 59 ESQ Ext: emprego         
+Pai: 45 ESQ Int: 59
+Pai: 59 DIR Ext: empregos        
+Pai: 21 DIR Int: 45
+Pai: 45 DIR Ext: empresas        
+Pai: 15 DIR Int: 16
+Pai: 19 ESQ Ext: do              
+Pai: 16 DIR Int: 19
+Pai: 23 ESQ Ext: dos             
+Pai: 19 DIR Int: 23
+Pai: 23 DIR Ext: entrar          
+Pai: 11 DIR Int: 13
+Pai: 93 ESQ Ext: especializada   
+Pai: 23 ESQ Int: 93
+Pai: 93 DIR Ext: especializar    
+Pai: 13 DIR Int: 23
+Pai: 29 ESQ Ext: estao           
+Pai: 23 DIR Int: 29
+Pai: 29 DIR Ext: estudantes      
+Pai: 7 DIR Int: 8
+Pai: 24 ESQ Ext: falar           
+Pai: 21 ESQ Int: 24
+Pai: 24 DIR Ext: ganham          
+Pai: 15 ESQ Int: 21
+Pai: 22 ESQ Ext: garantirao      
+Pai: 21 DIR Int: 22
+Pai: 27 ESQ Ext: faz             
+Pai: 22 DIR Int: 27
+Pai: 27 DIR Ext: fazer           
+Pai: 14 ESQ Int: 15
+Pai: 15 DIR Ext: gerar           
+Pai: 13 ESQ Int: 14
+Pai: 15 ESQ Ext: fizeram         
+Pai: 14 DIR Int: 15
+Pai: 16 ESQ Ext: global          
+Pai: 15 DIR Int: 16
+Pai: 21 ESQ Ext: focar           
+Pai: 16 DIR Int: 21
+Pai: 27 ESQ Ext: for             
+Pai: 23 ESQ Int: 27
+Pai: 45 ESQ Ext: formacao        
+Pai: 29 ESQ Int: 45
+Pai: 45 DIR Ext: formar          
+Pai: 27 DIR Int: 29
+Pai: 29 DIR Ext: fosse           
+Pai: 21 DIR Int: 23
+Pai: 23 DIR Ext: governo         
+Pai: 8 DIR Int: 13
+Pai: 29 ESQ Ext: grande          
+Pai: 15 ESQ Int: 29
+Pai: 29 DIR Ext: grau            
+Pai: 13 DIR Int: 15
+Pai: 31 ESQ Ext: funcoes         
+Pai: 21 ESQ Int: 31
+Pai: 78 ESQ Ext: fundamental     
+Pai: 31 DIR Int: 78
+Pai: 78 DIR Ext: fundamentos     
+Pai: 15 DIR Int: 21
+Pai: 21 DIR Ext: futuro          
+Pai: 5 ESQ Int: 6
+Pai: 19 ESQ Ext: ha              
+Pai: 14 ESQ Int: 19
+Pai: 19 DIR Ext: haja            
+Pai: 13 ESQ Int: 14
+Pai: 16 ESQ Ext: importante      
+Pai: 14 DIR Int: 16
+Pai: 23 ESQ Ext: incluir         
+Pai: 21 ESQ Int: 23
+Pai: 24 ESQ Ext: india           
+Pai: 23 DIR Int: 24
+Pai: 30 ESQ Ext: ingenuidade     
+Pai: 29 ESQ Int: 30
+Pai: 30 DIR Ext: informatica     
+Pai: 24 DIR Int: 29
+Pai: 39 ESQ Ext: infra-estrutura 
+Pai: 29 DIR Int: 39
+Pai: 39 DIR Ext: ingressar       
+Pai: 16 DIR Int: 21
+Pai: 24 ESQ Ext: interessados    
+Pai: 21 DIR Int: 24
+Pai: 24 DIR Ext: investir        
+Pai: 8 ESQ Int: 13
+Pai: 13 DIR Ext: irao            
+Pai: 7 ESQ Int: 8
+Pai: 8 DIR Ext: jovens          
+Pai: 6 DIR Int: 7
+Pai: 19 ESQ Ext: la              
+Pai: 15 ESQ Int: 19
+Pai: 22 ESQ Ext: lado            
+Pai: 21 ESQ Int: 22
+Pai: 29 ESQ Ext: maior           
+Pai: 23 ESQ Int: 29
+Pai: 29 DIR Ext: mais            
+Pai: 22 DIR Int: 23
+Pai: 30 ESQ Ext: mao             
+Pai: 23 DIR Int: 30
+Pai: 30 DIR Ext: mao-de-obra     
+Pai: 19 DIR Int: 21
+Pai: 21 DIR Ext: matematica      
+Pai: 14 ESQ Int: 15
+Pai: 21 ESQ Ext: menor           
+Pai: 15 DIR Int: 21
+Pai: 30 ESQ Ext: mercado         
+Pai: 21 DIR Int: 30
+Pai: 30 DIR Ext: mesmo           
+Pai: 13 ESQ Int: 14
+Pai: 22 ESQ Ext: lidar           
+Pai: 14 DIR Int: 22
+Pai: 22 DIR Ext: minimo          
+Pai: 8 ESQ Int: 13
+Pai: 23 ESQ Ext: muitas          
+Pai: 13 DIR Int: 23
+Pai: 23 DIR Ext: mundo           
+Pai: 7 DIR Int: 8
+Pai: 11 ESQ Ext: o               
+Pai: 8 DIR Int: 11
+Pai: 19 ESQ Ext: na              
+Pai: 15 ESQ Int: 19
+Pai: 22 ESQ Ext: nacional        
+Pai: 19 DIR Int: 22
+Pai: 22 DIR Ext: nao             
+Pai: 14 ESQ Int: 15
+Pai: 83 ESQ Ext: necessario      
+Pai: 21 ESQ Int: 83
+Pai: 83 DIR Ext: necessarios     
+Pai: 15 DIR Int: 21
+Pai: 21 DIR Ext: nesta           
+Pai: 13 ESQ Int: 14
+Pai: 19 ESQ Ext: no              
+Pai: 14 DIR Int: 19
+Pai: 19 DIR Ext: norte-americano 
+Pai: 11 DIR Int: 13
+Pai: 21 ESQ Ext: oportunidade    
+Pai: 16 ESQ Int: 21
+Pai: 21 DIR Ext: optar           
+Pai: 15 ESQ Int: 16
+Pai: 16 DIR Ext: os              
+Pai: 13 DIR Int: 15
+Pai: 19 ESQ Ext: ou              
+Pai: 15 DIR Int: 19
+Pai: 21 ESQ Ext: numero          
+Pai: 19 DIR Int: 21
+Pai: 38 ESQ Ext: outras          
+Pai: 21 DIR Int: 38
+Pai: 38 DIR Ext: outro           
+Pai: 4 DIR Int: 5
+Pai: 29 ESQ Ext: para            
+Pai: 14 ESQ Int: 29
+Pai: 31 ESQ Ext: passar          
+Pai: 29 DIR Int: 31
+Pai: 31 DIR Ext: parte           
+Pai: 13 ESQ Int: 14
+Pai: 35 ESQ Ext: pode            
+Pai: 22 ESQ Int: 35
+Pai: 35 DIR Ext: podem           
+Pai: 21 ESQ Int: 22
+Pai: 23 ESQ Ext: pois            
+Pai: 22 DIR Int: 23
+Pai: 23 DIR Ext: politica        
+Pai: 14 DIR Int: 21
+Pai: 23 ESQ Ext: por             
+Pai: 21 DIR Int: 23
+Pai: 23 DIR Ext: poucos          
+Pai: 8 ESQ Int: 13
+Pai: 22 ESQ Ext: presidente      
+Pai: 15 ESQ Int: 22
+Pai: 23 ESQ Ext: prioridade      
+Pai: 22 DIR Int: 23
+Pai: 31 ESQ Ext: problema        
+Pai: 30 ESQ Int: 31
+Pai: 46 ESQ Ext: produtividade   
+Pai: 32 ESQ Int: 46
+Pai: 46 DIR Ext: produz          
+Pai: 31 DIR Int: 32
+Pai: 32 DIR Ext: profissionais   
+Pai: 23 DIR Int: 30
+Pai: 30 DIR Ext: promissor       
+Pai: 13 DIR Int: 15
+Pai: 30 ESQ Ext: quadro          
+Pai: 23 ESQ Int: 30
+Pai: 32 ESQ Ext: qualificados    
+Pai: 30 DIR Int: 32
+Pai: 32 DIR Ext: quanto          
+Pai: 15 DIR Int: 23
+Pai: 27 ESQ Ext: que             
+Pai: 23 DIR Int: 27
+Pai: 27 DIR Ext: quem            
+Pai: 7 ESQ Int: 8
+Pai: 46 ESQ Ext: rapidamente     
+Pai: 15 ESQ Int: 46
+Pai: 46 DIR Ext: rapido          
+Pai: 14 ESQ Int: 15
+Pai: 19 ESQ Ext: se              
+Pai: 15 DIR Int: 19
+Pai: 21 ESQ Ext: sem             
+Pai: 19 DIR Int: 21
+Pai: 24 ESQ Ext: representa      
+Pai: 23 ESQ Int: 24
+Pai: 27 ESQ Ext: ser             
+Pai: 24 DIR Int: 27
+Pai: 31 ESQ Ext: seria           
+Pai: 29 ESQ Int: 31
+Pai: 31 DIR Ext: resolve         
+Pai: 27 DIR Int: 29
+Pai: 29 DIR Ext: resultados      
+Pai: 21 DIR Int: 23
+Pai: 23 DIR Ext: setor           
+Pai: 13 ESQ Int: 14
+Pai: 59 ESQ Ext: sistema         
+Pai: 23 ESQ Int: 59
+Pai: 59 DIR Ext: sistemas        
+Pai: 15 ESQ Int: 23
+Pai: 23 DIR Ext: situacao        
+Pai: 14 DIR Int: 15
+Pai: 30 ESQ Ext: somente         
+Pai: 15 DIR Int: 30
+Pai: 30 DIR Ext: solicitou       
+Pai: 8 DIR Int: 13
+Pai: 21 ESQ Ext: suas            
+Pai: 13 DIR Int: 21
+Pai: 21 DIR Ext: sustentavel     
+Pai: 5 DIR Int: 7
+Pai: 21 ESQ Ext: tecnologia      
+Pai: 14 ESQ Int: 21
+Pai: 21 DIR Ext: ter             
+Pai: 13 ESQ Int: 14
+Pai: 19 ESQ Ext: um              
+Pai: 16 ESQ Int: 19
+Pai: 19 DIR Ext: uma             
+Pai: 14 DIR Int: 16
+Pai: 35 ESQ Ext: toda            
+Pai: 30 ESQ Int: 35
+Pai: 35 DIR Ext: todas           
+Pai: 16 DIR Int: 30
+Pai: 30 DIR Ext: todo            
+Pai: 8 ESQ Int: 13
+Pai: 15 ESQ Ext: trabalho        
+Pai: 13 DIR Int: 15
+Pai: 15 DIR Ext: utilizam        
+Pai: 7 DIR Int: 8
+Pai: 22 ESQ Ext: vagas           
+Pai: 15 ESQ Int: 22
+Pai: 22 DIR Ext: valor           
+Pai: 14 ESQ Int: 15
+Pai: 22 ESQ Ext: ver             
+Pai: 15 DIR Int: 22
+Pai: 22 DIR Ext: vez             
+Pai: 8 DIR Int: 14
+Pai: 14 DIR Ext: volume          
+
+Pesquisando chave0: trabalho
+Elemento encontrado
+Linha 22 / Coluna 2
+Linha 24 / Coluna 2
+Pesquisando chave1: computacao
+Elemento encontrado
+Linha 5 / Coluna 8
+Linha 8 / Coluna 2
+Linha 9 / Coluna 7
+Linha 14 / Coluna 6
+Linha 21 / Coluna 6
+Pesquisando chave2: governo
+Elemento encontrado
+Linha 6 / Coluna 9
+Pesquisando chave3: educacao
+Elemento encontrado
+Linha 4 / Coluna 10
+Linha 27 / Coluna 2
+Linha 28 / Coluna 9
+Pesquisando chave4: tecnologia
+Elemento encontrado
+Linha 20 / Coluna 4
+Linha 30 / Coluna 10
+Linha 33 / Coluna 8
+Pesquisando chave5: formacao
+Elemento encontrado
+Linha 1 / Coluna 6
+Linha 22 / Coluna 10
+Pesquisando chave6: desenvolvimento
+Elemento encontrado
+Linha 26 / Coluna 4
+Linha 27 / Coluna 6
+Pesquisando chave7: que
+Elemento encontrado
+Linha 4 / Coluna 4
+Linha 5 / Coluna 4
+Linha 8 / Coluna 8
+Linha 14 / Coluna 10
+Linha 16 / Coluna 5
+Linha 24 / Coluna 6
+Linha 26 / Coluna 5
+Linha 30 / Coluna 6
+Linha 30 / Coluna 14
+Linha 34 / Coluna 5
+Linha 34 / Coluna 9
+Pesquisando chave8: informatica
+Elemento encontrado
+Linha 16 / Coluna 2
+Linha 27 / Coluna 10
+Pesquisando chave9: em
+Elemento encontrado
+Linha 10 / Coluna 8
+Linha 14 / Coluna 1
+Linha 14 / Coluna 3
+Linha 15 / Coluna 1
+Linha 19 / Coluna 8
+Linha 28 / Coluna 8
+Pesquisando chave10: crise
+Elemento encontrado
+Linha 31 / Coluna 6
+
+Process finished with exit code 0

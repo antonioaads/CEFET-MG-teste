@@ -1,0 +1,21 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do parte3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Antonio/Documents/4_semestre/LAOC\ II/pratica1/parte3 {C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte3/top_parte3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_parte3
+# ** Error: C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte3/top_parte3.v(38): (vlog-2730) Undefined variable: 'index'.
+# 
+# ** Error: C:/Users/Antonio/Documents/4_semestre/LAOC II/pratica1/parte3/top_parte3.v(42): 'index' already declared in this scope (top_parte3).
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./parte3_run_msim_rtl_verilog.do line 8
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Antonio/Documents/4_semestre/LAOC\ II/pratica1/parte3 {C:/Users/Antonio/Documents/4_semestre/LAOC II/pr..."
+# Load canceled
