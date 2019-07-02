@@ -1,19 +1,18 @@
-/* File:       conj_grad.c
- * Author:     Vincent Zhang
+/* Arquivo:    MetodoGradienteConjugado.c
+ * Alterações: Antônio Sousa (Iniciado proposta de otimização com MPI e OpenMp)
+ * Autor:      Vincent Zhang
  *
- * Purpose:    A serial conjugate gradient solver program. Due to time limits,
- *             the MPI parallel version is not included in this source code.
+ * Proposta:   Refinar as implementações feitas e testar o MPI em algum cluster
  *
- * Compile:    gcc -g -Wall -lm -o conj_grad conj_grad.c
- * Run:        conj_grad [order] [tolerance] [iterations] 
- *                       [Optional suppress output(n)] < [file]
+ * Compilar:   gcc -g -Wall -lm -o MetodoGradienteConjugado.c
+ * Rodar:      a.out [ordem] [tolerancia] [iterações] 
+ *                       [Linhas dos sistema(n)]
  *
- * Input:      A file that contains a symmetric, positive definite matrix A,  
- *             and the corresponding right hand side vector B. Preferably, each
- *             line consists of [n] elements and the [n+1] line would be the b.
- * Output:     1. The number of iterations,
- *             2. The time used by the solver (not including I/O),
- *             3. The solution to the linear system (if not suppressed),
+ * Input:      N linhas respectivas as linhas da matriz do sistema linear
+ *             
+ * Output:     1. O numero de iterações,
+ *             2. Tempo utilizado para rodar,
+ *             3. A solução do sistema,
  *             4. The norm of the residual calculated by the conjugate gradient 
  *                method, and 
  *             5. The norm of the residual calculated directly from the 
@@ -34,6 +33,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <omp.h>
 // #include <mpi.h>     /* For MPI functions, etc */
 #include "timer.h"
 
@@ -198,7 +198,10 @@ int main(int argc, char **argv) {
 	  
 	  GET_TIME(start);
 	  
-	  while ((k < max_iterations) && (dotProduct(r, r, order) > tolerance)) {
+    #pragma omp parallel
+    {
+        #pragma omp for
+        for(; (k < max_iterations) && (dotProduct(r, r, order) > tolerance);){
 	  	  // memcpy(r_prev_prev, r_prev, (order * sizeof(double)));
 		  assignVector(r_prev_prev, r_prev, order);
 		  assignVector(r_prev, r, order);
@@ -243,6 +246,8 @@ int main(int argc, char **argv) {
 		  r = vectorSubtract(r, r_prev, holderVector, order);
 		  
 	  }
+    }
+      
 	  
       GET_TIME(finish);
       elapsed = finish - start;

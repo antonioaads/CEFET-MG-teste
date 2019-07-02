@@ -9,7 +9,7 @@ void main(void){
     #pragma omp parallel
     {
         #pragma omp for
-        for(i=1;i<=10000;i++){
+        for(i=1;i<=100000;i++){
             if(i%2!=0)
                 pi=pi+4/aux1;
             else
