@@ -26,7 +26,7 @@ Utilizei variáveis de ambiente no linux para determinar os dois fatores cruciai
 irá ser escutada e o nome do arquivo que irá ser nomeado após recebimento. No exemplo da imagem, utilizamos a porta *7000* e o nome do arquivo que será recebido é *arquivoParaReceber.txt*.
 
 Ao executar o script, temos o seguinte resultado:
-![Codigo do Recebedor](./imagens/codigoRecebedorInicio.png)
+![Codigo do Recebedor](./imagens/executandoRecebedorInicio.png)
 
 Enquanto nao rodarmos o *Enviador*, nada a mais irá ocorrer.
 
