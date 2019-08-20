@@ -26,7 +26,7 @@ Utilizei variáveis de ambiente no linux para determinar os dois fatores cruciai
 irá ser escutada e o nome do arquivo que irá ser nomeado após recebimento. No exemplo da imagem, utilizamos a porta *7000* e o nome do arquivo que será recebido é *arquivoParaReceber.txt*.
 
 Ao executar o script, temos o seguinte resultado:
-![Codigo do Recebedor](./imagens/executandoRecebedorInicio.png)
+![Executando Recebedor Inicio](./imagens/executandoRecebedorInicio.png)
 
 Enquanto nao rodarmos o *Enviador*, nada a mais irá ocorrer.
 
@@ -37,3 +37,22 @@ O código do enviador é tão simples quanto o do Recebedor. O que ele faz é ac
 O código utilizado segue abaixo: (A explicação do código está nos próprios comentários)
 ![Codigo do Enviador](./imagens/codigoEnviador.png)
 
+Para este código, conforme pode ser visto acima, também utilizei variáveis de ambiente, mas, neste caso, três valores são cruciais, sendo eles o IP que ele deverá conectar, a porta que deverá acessar e o arquivo que ele deverá enviar. Lembrando de prestar atenção no caminho do arquivo. 
+
+Nos testes, foi utilizado o mesmo diretório para tudo, conforme pode ser visto através do comando *ls* :
+![Área de trabalho onde rodou-se o enviador](./imagens/areaTrabalhoEnviador.png)
+
+Executando o enviador, temos o seguinte resultado:
+![Executando Enviador inicio](./imagens/executandoEnviadorInicio.png)
+
+Após essa mensagem, temos o *delay* de alguns milisegundos, e a seguinte mensagem aparece:
+![Executando Enviador](./imagens/executandoEnviador.png)
+
+Diante disso, temos o término do envio, e conseguentemente, temos uma resposta na tela do *Recebedor*, conforme abaixo: (Lembrando que para rodar o *Enviador*, o *Recebedor* já deverá estar sendo executado, conforme tópico anterior)
+![Executando Recebedor](./imagens/executandoRecebedor.png)
+
+## Resultado
+
+Após esses passos, o *NetCat* já se responsabiliza por fechar as portas que foram abertas, e a comunicação finaliza. 
+Enfim, temos o arquivo, com o nome que foi dado no *Recebedor*, no diretório onde ele foi executado, conforme abaixo:
+![Executando Recebedor](./imagens/areaTrabalhoRecebedor.png)
