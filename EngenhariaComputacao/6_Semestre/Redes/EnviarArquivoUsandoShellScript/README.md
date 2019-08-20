@@ -39,10 +39,14 @@ O código utilizado segue abaixo: (A explicação do código está nos próprios
 
 Para este código, conforme pode ser visto acima, também utilizei variáveis de ambiente, mas, neste caso, três valores são cruciais, sendo eles o IP que ele deverá conectar, a porta que deverá acessar e o arquivo que ele deverá enviar. Lembrando de prestar atenção no caminho do arquivo. 
 
-Nos testes, foi utilizado o mesmo diretório para tudo, conforme pode ser visto através do comando *ls* :
-![Área de trabalho onde rodou-se o enviador](./imagens/areaTrabalhoEnviador.png)
+Para saber o IP da máquina, basta rodar o comando *ifconfig* na máquina onde irá executar o *recebedor*, conforme imagem abaixo: (se analisar, o Ip de resposta do comando, é exatamente o mesmo que foi salvo na variável de ambiente no código demonstrado)
+![IfConfig](./imagens/ifConfig.png)
 
-Executando o enviador, temos o seguinte resultado:
+Nos testes, foi utilizado o mesmo diretório para tudo, conforme pode ser visto através do comando *ls* :
+![Área de trabalho enviador](./imagens/areaTrabalhoEnviador.png)
+
+Executando o enviador, temos o seguinte resultado no terminal:
+
 ![Executando Enviador inicio](./imagens/executandoEnviadorInicio.png)
 
 Após essa mensagem, temos o *delay* de alguns milisegundos, e a seguinte mensagem aparece:
@@ -56,3 +60,9 @@ Diante disso, temos o término do envio, e conseguentemente, temos uma resposta 
 Após esses passos, o *NetCat* já se responsabiliza por fechar as portas que foram abertas, e a comunicação finaliza. 
 Enfim, temos o arquivo, com o nome que foi dado no *Recebedor*, no diretório onde ele foi executado, conforme abaixo:
 ![Executando Recebedor](./imagens/areaTrabalhoRecebedor.png)
+
+Resta, agora, apenas confirmarmos se o arquivo recebido consiste com o arquivo enviado. Diante disso, segue abaixo o arquivo *arquivoParaReceber.txt*:
+![Arquivo Recebido](./imagens/arquivoRecebido.png)
+
+Se analisarmos o texto com o que foi mostrado em cima, pode-se comprovar que são idênticos.
+
