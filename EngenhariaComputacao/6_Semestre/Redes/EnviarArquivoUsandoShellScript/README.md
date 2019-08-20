@@ -17,7 +17,7 @@ Foi gerado um arquivo para o envio, chamado *arquivoParaEnvio.txt* que foi gerad
 
 ## Recebedor
 
-O código do recebedor é muito simples, ele abre e mantêm "escutando" uma determinada porta do computador, para quando algum arquivo for enviado para essa porta, ele consiga recebê-lo e salvá-lo no computador.
+O código do recebedor é muito simples, através do *NetCat*, ele abre e mantêm "escutando" uma determinada porta do computador, para quando algum arquivo for enviado para essa porta, ele consiga recebê-lo e salvá-lo no computador.
 
 O código utilizado segue abaixo: (A explicação do código está nos próprios comentários)
 ![Codigo do Recebedor](./imagens/codigoRecebedor.png)
@@ -29,4 +29,11 @@ Ao executar o script, temos o seguinte resultado:
 ![Codigo do Recebedor](./imagens/executandoRecebedorInicio.png)
 
 Enquanto nao rodarmos o *Enviador*, nada a mais irá ocorrer.
+
+## Enviador
+
+O código do enviador é tão simples quanto o do Recebedor. O que ele faz é acessar a porta que foi aberta, também através do *NetCat*, e enviar um arquivo que lhe for passado, no caso, o arquivo *arquivoParaEnvio.txt*, conforme já foi mencionado.
+
+O código utilizado segue abaixo: (A explicação do código está nos próprios comentários)
+![Codigo do Enviador](./imagens/codigoEnviador.png)
 
