@@ -8,4 +8,10 @@ e outro que irá rodar na máquina que receberá o arquivo, chamados carinhosame
 
 A base do funcionamento do trabalho executado é o *NetCat*, que trata-se de uma ferramenta de rede disponível para
 os principais sistemas operacionais, porém, como utilizamos linux, o que irá nos interessar é o *NetCat* para linux.
-![Banana](./imagens/arquivoEnvio.png)
+
+## Recebedor
+
+O código do recebedor é muito simples, ele simplesmente abre e mantêm "escutando" uma determinada porta do computador, para quando algum arquivo for enviado para essa porta, ele consiga recebê-lo e salvá-lo no computador.
+
+O código utilizado segue abaixo:
+![Codigo do Recebedor](./imagens/)
