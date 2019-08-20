@@ -22,9 +22,15 @@ Após definição dos parâmetros que o vetor terá, o mesmo é gerado e salvo n
 
 Diante disso, temos todos os dados necessários na memória compartilhada, então, o *producer* entra em um loop, analisando o ponteiro que representa a informação *quantidade contada*. Enquanto o valor permanecer igual a -1, ele ficará preso nesse loop, informando apenas uma mensagem a cada 10 segundos, conforme imagem abaixo: (Nas demonstrações, foi utilizado um vetor de apenas 200 caracteres e 5 processos para contar, para facilitar na visualização, mas basta alterar as variáveis para que o vetor gerado e o numero de processos seja maior).
 
-![Arquivo a ser enviado](./imagens/passo1_recortado.png)
+![Primeiro passo](./imagens/passo1_recortado.png)
 
 Agora, precisamos rodar o *consumer*, para ele contar e retornar o valor contado para o *producer*. A comunicação entre os *conducer* e os processos gerados dentro dele é feito pelo próprio retorno, para abranger o máximo da matéria passada em aula. Ao rodar o *consumer* temos a seguinte saida:
+
+![Segundo Passo](./imagens/passo2_recortado.png)
+
+Nesse ponto, o *consumer* já foi executado, e o retorno dos processos filhos foram impressos na tela, somados, e salvo na memória compartilhada *info*, no endereço correspondente à *quantidade contada*. Diante dessa mudança, o *producer*, ainda em execução, percebe a alteração do valor da *quantidade contada* e continua o fluxo, que é apenas a impressão do valor encontrado nesse endereço de memória, conforme pode ser visto na imagem abaixo:
+
+![Segundo Passo](./imagens/passo3_recortado.png)
 
 
 
