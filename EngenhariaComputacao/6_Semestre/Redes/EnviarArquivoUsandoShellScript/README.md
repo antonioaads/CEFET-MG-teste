@@ -39,7 +39,7 @@ O código utilizado segue abaixo: (A explicação do código está nos próprios
 
 Para este código, conforme pode ser visto acima, também utilizei variáveis de ambiente, mas, neste caso, três valores são cruciais, sendo eles o IP que ele deverá conectar, a porta que deverá acessar e o arquivo que ele deverá enviar. Lembrando de prestar atenção no caminho do arquivo. 
 
-Para saber o IP da máquina, basta rodar o comando *ifconfig* na máquina onde irá executar o *recebedor*, conforme imagem abaixo: (se analisar, o Ip de resposta do comando, é exatamente o mesmo que foi salvo na variável de ambiente no código demonstrado)
+Para saber o IP da máquina, basta rodar o comando *ifconfig* na máquina onde irá executar o *recebedor*, conforme imagem abaixo:(se analisar, o Ip de resposta do comando, é exatamente o mesmo que foi utilizado no código demonstrado)
 ![IfConfig](./imagens/ifConfig.png)
 
 Nos testes, foi utilizado o mesmo diretório para tudo, conforme pode ser visto através do comando *ls* :
