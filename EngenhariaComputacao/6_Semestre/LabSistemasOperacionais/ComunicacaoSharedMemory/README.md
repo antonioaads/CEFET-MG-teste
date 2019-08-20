@@ -30,7 +30,15 @@ Agora, precisamos rodar o *consumer*, para ele contar e retornar o valor contado
 
 Nesse ponto, o *consumer* já foi executado, e o retorno dos processos filhos foram impressos na tela, somados, e salvo na memória compartilhada *info*, no endereço correspondente à *quantidade contada*. Diante dessa mudança, o *producer*, ainda em execução, percebe a alteração do valor da *quantidade contada* e continua o fluxo, que é apenas a impressão do valor encontrado nesse endereço de memória, conforme pode ser visto na imagem abaixo:
 
-![Segundo Passo](./imagens/passo3_recortado.png)
+![Terceiro Passo](./imagens/passo3_recortado.png)
+
+Com isso, temos o término da execução do nosso codigo.
+
+## Validação
+
+Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 7 caracteres 'A'.
+
+![Validação](./imagens/confirmar.png)
 
 
 
