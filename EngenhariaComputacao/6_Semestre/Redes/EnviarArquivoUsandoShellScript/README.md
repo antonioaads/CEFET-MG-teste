@@ -1,5 +1,6 @@
-# Redes de Computadores
+# Trabalho Pratico - Enviar arquivo de um PC para outro
 
-O objetivo dessa pasta é organizar os trabalhos desenvolvidos durante a disciplina de Redes de Computadores,
-lecionada de maneira obrigatória para o curso de Engenharia de Computação do Centro Federal de Educação Tecnológica de 
-Minas Gerais. 
+O objetivo dessa trabalho consiste em basicamente enviar um arquivo de texto de um computador para outro. Para tal,
+foi utilizado a linguagem ShellScript, devido a um sorteio feito em sala de aula
+
+![Banana](./imagens/arquivoEnvio.png)
