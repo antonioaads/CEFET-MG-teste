@@ -1,44 +1,50 @@
-# Comunicar dois processos através da memória compartilhada
+# Comunicar dois processos através de Fila (Troca de Mensagens)
 
 ## Enunciado
 
-Implemente uma solução para o seguinte problema: contar o número de ocorrências de um caracter em vetor contendo 10000 caracteres. 
+Utilizando troca de mensagens, suponha 2 processos P1 e P2:
 
-O vetor deve ser gerado por um processo P1. Outros N processos, não filhos de P1, deverão contar as ocorrências do caracter em uma parte do vetor. Por exemplo, considerando um vetor de 10000 elementos e 4 processos, cada processo realizará a contagem em um subconjunto de 2500 elementos do vetor.
+* P1 gera um vetor de caracteres V
+* P1 envia V para P2 por mensagem
+* P2 conta o número de ocorrências de um determinado caracter em V
+* P2 envia para P1, por mensagem, a número de ocorrências do caracter
+* P1 exibe o número de ocorrências
 
-O processo P1 deverá: i) alocar o vetor na memória compartilhada; ii) informar o valor de N desejado (ou seja, quantos processos realizarão a contagem); e iii) informar o caracter que será contado. Após o termino da contagem realizada pelos N processos, o processo P1 deverá exibir o resultado total da contagem.
+*Observe que não existe a relação pai-filho entre os processos P1 e P2.*
 
 ## Lógica adotada
 
-Foram feitos dois códigos, um chamado *consumer* e outro chamado *producer*. O *producer* é o responsável por gerar o vetor e passar as informações para a memória compartilhada, enquanto o *consumer* é o responsável por acessar a memoria compartilhada, e fazer a devida contagem dos caracteres.
-
-Foram utilizadas duas alocações de memória compartilhada, uma chamada *vetor* e outra chamada *info*, na qual uma serve apenas para armazenar o vetor gerado e a outra para salvar dados informativos (tamanho do vetor, numero de processos que deverão contar, tamanho do vetor, quantidade contada), respectivamente.
+Foram feitos dois códigos, um chamado *consumer*, correspondente ao *P2* do enunciado, e outro chamado *producer*, correspondente ao *P1* do enunciado. O *producer* é o responsável por gerar o vetor e passar as informações para a fila, enquanto o *consumer* é o responsável por acessar a fila, e fazer a devida contagem dos caracteres e retornar o resultado da contagem para a fila, para que o *producer* tenha acesso.
 
 ## Execução
 
-No início do *producer* é definido as variáveis da *info*, que podem ser alteradas a vontade, com exessão da *quantidade contada*, que obrigatoriamente é definida inicialmente como *-1* (o motivo disso será explicado posteriormente).
+Compile e execute o *consumer*. Após isso, teremos a seguinte mensagem impressa na tela: "1 - Esperando dados de entrada...", conforme imagem abaixo. Nesse ponto, a fila já foi criada e o *consumer* está esperando que algum dado chegue na fila.
 
-Após definição dos parâmetros que o vetor terá, o mesmo é gerado e salvo na memória compartilhada *vetor*. Após isso ele aloca/acessa a memória compartilhada *info* e salva os dados informativos lá, seguindo uma devida ordem, pré-estabelecida em ambos os códigos.
+![Primeiro passo Consumer](./imagens/passo1_consumer.png)
 
-Diante disso, temos todos os dados necessários na memória compartilhada, então, o *producer* entra em um loop, analisando o ponteiro que representa a informação *quantidade contada*. Enquanto o valor permanecer igual a -1, ele ficará preso nesse loop, informando apenas uma mensagem a cada 10 segundos, conforme imagem abaixo: (Nas demonstrações, foi utilizado um vetor de apenas 200 caracteres e 5 processos para contar, para facilitar na visualização, mas basta alterar as variáveis para que o vetor gerado e o numero de processos seja maior).
+Agora, precisamos rodar o *producer*, para ele gerar o vetor e inserí-lo na fila. Para isso, basta compilar e executar, conforme imagem abaixo. Será impresso na tela o vetor que foi gerado, e uma mensagem de espera do resultado.
 
-![Primeiro passo](./imagens/passo1_recortado.png)
+![Segundo Passo Producer](./imagens/passo1_producer.png)
 
-Agora, precisamos rodar o *consumer*, para ele contar e retornar o valor contado para o *producer*. A comunicação entre os *conducer* e os processos gerados dentro dele é feito pelo próprio retorno, para abranger o máximo da matéria passada em aula. Ao rodar o *consumer* temos a seguinte saida:
+Após isso, o *consumer* irá perceber que foi inserido um novo item na fila, e irá ler e fazer a devida contagem, conforme imagem:
 
-![Segundo Passo](./imagens/passo2_recortado.png)
+![Segundo passo Consumer](./imagens/passo2_consumer.png)
 
-Nesse ponto, o *consumer* já foi executado, e o retorno dos processos filhos foram impressos na tela, somados, e salvo na memória compartilhada *info*, no endereço correspondente à *quantidade contada*. Diante dessa mudança, o *producer*, ainda em execução, percebe a alteração do valor da *quantidade contada* e continua o fluxo, que é apenas a impressão do valor encontrado nesse endereço de memória, conforme pode ser visto na imagem abaixo:
+Após a contagem, o *consumer* irá enviar o resusltado através da fila e já estará pronto para receber um novo dado.
 
-![Terceiro Passo](./imagens/passo3_recortado.png)
+![Terceiro passo Consumer](./imagens/passo4_consumer.png)
+
+O *producer*, após pegar o resultado postado na fila, imprime o valor na tela.
+
+![Segundo passo producer](./imagens/passo2_producer.png)
 
 Com isso, temos o término da execução do nosso codigo.
 
 ## Validação
 
-Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 7 caracteres 'A'.
+Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 21 caracteres 'I'.
 
-![Validação](./imagens/confirmar.png)
+![Validação](./imagens/validacao.png)
 
 
 
