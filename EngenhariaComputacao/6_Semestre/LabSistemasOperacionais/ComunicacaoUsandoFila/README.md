@@ -1,18 +1,20 @@
-# Comunicar dois processos através da memória compartilhada
+# Comunicar dois processos através de Fila (Troca de Mensagens)
 
 ## Enunciado
 
-Implemente uma solução para o seguinte problema: contar o número de ocorrências de um caracter em vetor contendo 10000 caracteres. 
+Utilizando troca de mensagens, suponha 2 processos P1 e P2:
 
-O vetor deve ser gerado por um processo P1. Outros N processos, não filhos de P1, deverão contar as ocorrências do caracter em uma parte do vetor. Por exemplo, considerando um vetor de 10000 elementos e 4 processos, cada processo realizará a contagem em um subconjunto de 2500 elementos do vetor.
+* P1 gera um vetor de caracteres V
+* P1 envia V para P2 por mensagem
+* P2 conta o número de ocorrências de um determinado caracter em V
+* P2 envia para P1, por mensagem, a número de ocorrências do caracter
+* P1 exibe o número de ocorrências
 
-O processo P1 deverá: i) alocar o vetor na memória compartilhada; ii) informar o valor de N desejado (ou seja, quantos processos realizarão a contagem); e iii) informar o caracter que será contado. Após o termino da contagem realizada pelos N processos, o processo P1 deverá exibir o resultado total da contagem.
+*Observe que não existe a relação pai-filho entre os processos P1 e P2.*
 
 ## Lógica adotada
 
-Foram feitos dois códigos, um chamado *consumer* e outro chamado *producer*. O *producer* é o responsável por gerar o vetor e passar as informações para a memória compartilhada, enquanto o *consumer* é o responsável por acessar a memoria compartilhada, e fazer a devida contagem dos caracteres.
-
-Foram utilizadas duas alocações de memória compartilhada, uma chamada *vetor* e outra chamada *info*, na qual uma serve apenas para armazenar o vetor gerado e a outra para salvar dados informativos (tamanho do vetor, numero de processos que deverão contar, tamanho do vetor, quantidade contada), respectivamente.
+Foram feitos dois códigos, um chamado *consumer*, correspondente ao *P2* do enunciado, e outro chamado *producer*, correspondente ao *P1* do enunciado. O *producer* é o responsável por gerar o vetor e passar as informações para a fila, enquanto o *consumer* é o responsável por acessar a fila, e fazer a devida contagem dos caracteres e retornar o resultado da contagem para a fila, para que o *producer* tenha acesso.
 
 ## Execução
 
