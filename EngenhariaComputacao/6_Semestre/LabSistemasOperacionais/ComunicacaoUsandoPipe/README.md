@@ -20,14 +20,23 @@ Nesse projeto temos apenas um arquivo, chamado *pip.c*. Nesse arquivo, gera-se d
 
 Compile e execute o *pipe*. Após isso, teremos a impressão na tela dos ID's correspondentes ao processo pai e ao processo filho. Esse ID será utilizado em todas as mensagens impressas, para diferenciar quem está enviando.
 
-![Primeiro passo Consumer](./imagens/passo1.png)
+![Primeiro passo](./imagens/passo1.png)
 
+Após isso, enquanto o Filho está esperando, o Pai gera o vetor.
+
+![Segundo passo](./imagens/passo3.png)
+
+Depois de gerado, o Pai insere o Vetor com suas devidas informações no Pipe. Diante disso, o Filho recebe a informação e começa a fazer a devida contagem dos caracteres.
+
+![Terceiro passo](./imagens/passo4.png)
 
 ## Validação
 
 Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 21 caracteres 'I'.
 
 ![Validação](./imagens/validacao.png)
+
+Após isso, o Pai gera o vetor e imprime ele na tela, enquanto o Filho está esperando esse vetor ser passado por *Pipe*
 
 
 
