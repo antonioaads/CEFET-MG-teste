@@ -1,17 +1,9 @@
-//Para compilar utilize:
-//gcc -o consumer consumer.c -lrt -lm
+/*Source:
+http://stackoverflow.com/questions/3056307/how-do-i-use-mqueue-in-a-c-program-on-a-linux-based-system
+*/
 
-/**
- * Código que consulta um vetor na fila e faz a contagem de um caracter
- * específico.
- * 
- * Autores:
- * Antônio Augusto Diniz Sousa
- * Illyana Guimarães de Avelar
- * 
- * Baseado na estrutura disponível em:
- * http://stackoverflow.com/questions/3056307/how-do-i-use-mqueue-in-a-c-program-on-a-linux-based-system
- */
+/*Semelhante ao p01_receive.c, porém não sai do programa com o comando 'exit'.
+  Observe o do{...}while(1)  */
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -20,20 +12,23 @@
 #include <sys/types.h>
 #include <errno.h>
 #include <mqueue.h>
+
 #include "common.h"
 
 #define QUEUE_NAME  "/test_queue"
-//MELHORIA PROPOSTA: Estava dando problema quando eu deixava esse tamanho dinâmico.
 #define MAX_SIZE    1024
+#define MSG_STOP    "exit"
 
 int main(int argc, char **argv)
 {
 	mqd_t mq;
 	struct mq_attr attr;
 	void *buffer;
-	buffer = malloc(MAX_SIZE);
-	void *bufferInicio = buffer; //variável para salvar o início do buffer
+	buffer = malloc(1024);
+	void *bufferInicio = buffer;
 
+	int continuar;//Utilizado no loop
+	int must_stop = 0;
 	attr.mq_flags = 0; 
 	attr.mq_maxmsg = 10;
 	attr.mq_msgsize = 1024;
@@ -42,12 +37,11 @@ int main(int argc, char **argv)
 	mq = mq_open(QUEUE_NAME, O_CREAT | O_RDWR, 0644, &attr);
 	CHECK((mqd_t)-1 != mq);
 	
-	//Loop para poder ler varias estruturas
 	do{
 		buffer = bufferInicio;
 		printf("1 - Esperando dados de entrada... \n");
 		ssize_t bytes_read;
-		bytes_read = mq_receive(mq, buffer, MAX_SIZE, NULL);
+		bytes_read = mq_receive(mq, buffer, 1024, NULL);
 		CHECK(bytes_read >= 0);
 
 		char caracterParaBurcar = *(char*)buffer;
@@ -72,10 +66,8 @@ int main(int argc, char **argv)
 		}
 		vetorAleatorio[tamanhoVetor] = '\0';
 
-		//Salvando a contagem no buffer que será enviado
-		*(int*)bufferInicio = sum; 
+		*(int*)bufferInicio = sum; //Mandando o resultado da contagem
 
-		//Mandando o resultado da contagem
 		printf("3 - Enviando Resultado... \n\n");
 		CHECK(0 <= mq_send(mq, bufferInicio, 1024, 0));
 		CHECK( mq_getattr(mq, &attr) != -1);
