@@ -26,11 +26,11 @@ Após isso, enquanto o Filho está esperando, o Pai gera o vetor.
 
 ![Segundo passo](./imagens/passo3.png)
 
-Depois de gerado, o Pai insere o Vetor com suas devidas informações no Pipe. Diante disso, o Filho recebe a informação e começa a fazer a devida contagem dos caracteres, para posteriormente inserir a resposta da contagem no Pipe.
+Depois de gerado, o Pai insere o Vetor com suas devidas informações no *Pipe*. Diante disso, o Filho recebe a informação e começa a fazer a devida contagem dos caracteres, para posteriormente inserir a resposta da contagem no *Pipe*.
 
 ![Terceiro passo](./imagens/passo4.png)
 
-Após todos esses passos, o Filho insere o resultado no Pipe, e o Pai (que estava esperando), imprime o resultado na tela, conforme pode ser visto abaixo:
+Após todos esses passos, o Filho insere o resultado no *Pipe*, e o Pai (que estava esperando), imprime o resultado na tela, conforme pode ser visto abaixo:
 
 ![Quarto passo](./imagens/passo5.png)
 
@@ -38,11 +38,9 @@ Com isso, temos o término da execução do nosso codigo.
 
 ## Validação
 
-Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 21 caracteres 'I'.
+Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 25 caracteres 'J'.
 
 ![Validação](./imagens/validacao.png)
-
-Após isso, o Pai gera o vetor e imprime ele na tela, enquanto o Filho está esperando esse vetor ser passado por *Pipe*
 
 
 
