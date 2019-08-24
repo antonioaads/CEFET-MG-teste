@@ -34,15 +34,17 @@ Após a contagem, o *consumer* irá enviar o resusltado através da fila e já e
 
 ![Terceiro passo Consumer](./imagens/passo4_consumer.png)
 
-![Terceiro Passo](./imagens/passo3_recortado.png)
+O *producer*, após pegar o resultado postado na fila, imprime o valor na tela.
+
+![Segundo passo producer](./imagens/passo2_producer.png)
 
 Com isso, temos o término da execução do nosso codigo.
 
 ## Validação
 
-Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 7 caracteres 'A'.
+Para validar a contagem, colou-se o vetor gerado em um arquivo de texto, e utilizou-se a função de busca, conforme pode ser visto na imagem abaixo, confirmando a contagem de 21 caracteres 'I'.
 
-![Validação](./imagens/confirmar.png)
+![Validação](./imagens/validacao.png)
 
 
 
